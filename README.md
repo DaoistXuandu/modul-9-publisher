@@ -18,3 +18,8 @@ Because the URLs are the same, the subscriber will receive all messages the publ
 
 # Sending and processing event.
 [Gambar 2](./static/G2.png)
+
+# Monitoring chart based on publisher.
+[Gambar 3](./static/G3.png)
+
+The spike shows a rapid increase in messages published to the `user_created` queue. Each time the publisher is run, it sends multiple events to RabbitMQ, which causes the spike seen on the chart.
