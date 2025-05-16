@@ -28,3 +28,8 @@ The spike shows a rapid increase in messages published to the `user_created` que
 [Gambar 4](./static/G4.png)
 
 In my machine, the total number of messages in the queue was 15. This happened because I ran the publisher 4 times consecutively, and each time it sent 5 events. Since the subscriber processes messages slowly (one-by-one), they get queued up. The spike in queue length shows that the producer can generate messages faster than the consumer can handle them because of the delay of 1 second, thus generate the spike in queue length
+
+# Reflection and Running at least three subscribers
+[Gambar 5](./static/G5.png)
+
+As can seen because now there is three subscriber the response are processing in paraller thus lowering the time it takes to process it's of each publisher response
