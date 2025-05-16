@@ -15,3 +15,6 @@ Because the URLs are the same, the subscriber will receive all messages the publ
 
 # Running RabbitMQ as message broker.
 [Gambar 1](./static/G1.png)
+
+# Sending and processing event.
+[Gambar 2](./static/G2.png)
