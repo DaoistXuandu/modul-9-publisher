@@ -12,3 +12,6 @@ b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the sub
 The publisher and the subscriber are both: Using the same RabbitMQ server (located at localhost, which is your own computer), Using the same credentials (username = guest, password = guest), Connecting through port 5672, the default port for AMQP.
 
 Because the URLs are the same, the subscriber will receive all messages the publisher sends to the "user_created" queue.
+
+# Running RabbitMQ as message broker.
+[Gambar 1](./static/G1.png)
